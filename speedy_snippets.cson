@@ -1,2 +1,7 @@
 # used with atom.io, fast snippets
 # For test, copy it to File > Snippets
+
+'.text.md':
+  'denominator(linear algebra, inline)':
+    'prefix': 'linear.denominator.inline'
+    'body': '\\\\begin{vmatrix}${1:<variable>}\\\\end{vmatrix}'
